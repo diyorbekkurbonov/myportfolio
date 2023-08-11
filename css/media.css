@@ -1,0 +1,185 @@
+@media(max-width:1200px){
+
+}
+@media(max-width:998px){
+    .service__bg{
+        font-size: 30px;
+        transform: scale(0.9);
+      }
+      .glass{
+        transform: scale(0.9);
+       margin-left: -30px;
+      }
+}
+@media(max-width:768px){
+    .nav__list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 13px;
+      
+        
+    }
+    .header__nav{
+        padding: 20px 0;
+    }
+    .nav__link{
+        font-size: 13px;
+    }
+
+    .left__subtitle{
+       font-size: 42px;
+
+    }
+    .left__text{
+        font-size: 16px;
+        box-shadow: none;
+    }
+    .right__title{
+          font-size: 15px;
+    }
+    .button{
+       padding: 50px 0;
+    }
+    .section__aboutme{
+        padding: 50px 0;
+    }
+    .about__me-left{
+       width: 200px;
+       height: 200px;
+    }
+    .aboutme__left-button{
+        width: 170px;
+    }
+    .about__me-title{
+     font-size: 22px;
+     padding: 20px 0 7px;
+
+
+    }
+    .about__me-subtitle{
+    font-size: 17px;
+    padding-bottom: 47px;
+
+    }
+    .about__me-subtitle:hover{
+      font-size: 17px;
+    }
+    .about__me-content{
+        justify-content: space-between;
+        column-gap: 0;
+        padding: 30px 0;
+
+
+    }
+    .about__me-right{
+        width: 200px;
+       
+    }
+    .aboutme__right-subtitle{
+         font-size: 17px;
+         line-height: 19px;
+         margin-bottom: 47px;
+
+    }
+    .aboutme__card{
+         
+        transform: scale(0.8);
+       
+    }
+    .myskills__content{
+        max-width: 600px;
+        display: grid;
+        grid-template-columns:repeat( 2,1fr);
+      }
+    .myskills__card{
+        transform: scale(0.8);
+    }
+    .service__bg{
+        font-size: 30px;
+        transform: scale(0.6);
+      }
+      .glass{
+        transform: scale(0.6);
+       margin-left: -60px;
+      }
+      .contacts__content{
+    
+        transform: scale(0.7);
+      }
+      .footer__content{
+        transform: scale(0.1);
+      }
+
+}
+@media(max-width:520px){
+    .nav__list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 13px;
+      
+        
+    }
+
+
+    .right__img{
+        margin-top: -15px;
+        width: 100px;
+        height: 100px;
+
+    }
+  .about__me{
+    font-size: 17px;
+    padding: 10px 15px;
+
+  }
+  .left__subtitle{
+    margin-bottom: 20px;
+    font-size: 22px;
+    width: 105px;
+    margin-left: -10px;
+    color: goldenrod;
+  }
+  .left__text{
+   display: none;
+  }
+  .bottom{
+    margin: 20px 0;
+  }
+  .about__me-content{
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  .aboutme__right-subtitle{
+    text-align: center;
+  }
+  .myskills__content{
+    max-width: 300px;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+  }
+  .service__bg{
+    font-size: 30px;
+    transform: scale(0.4);
+  }
+  .glass{
+    transform: scale(0.4);
+   margin-left: -60px;
+  }
+  .portfolio__card{
+    transform: scale(0.5);
+  }
+  .contacts__content{
+    transform: scale(0.5);
+  }
+  .footer__title,
+  .footer__content{
+    transform: scale(0.5);
+  }
+}
+@media(max-width:350px){
+    
+    .nav__list{
+    display: none;
+    }
+}
